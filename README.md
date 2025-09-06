@@ -135,7 +135,7 @@ root@u22ws-template:~/vagrant-ubuntu#
 ```
 root@u22ws-template:~/vagrant-ubuntu# vagrant ssh
 Last login: Fri Sep  5 16:44:13 2025 from 192.168.121.1
-vagrant@ubuntu2204:~$ ip a | grep inet | grep -v intet6
+vagrant@ubuntu2204:~$ ip a | grep inet 
     inet 127.0.0.1/8 scope host lo
     inet 192.168.121.11/24 metric 100 brd 192.168.121.255 scope global dynamic eth0
     inet6 fe80::5054:ff:fe0c:814b/64 scope link
